@@ -3,75 +3,99 @@ body {
   padding: 0;
 
   /* Positioning */
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2;
+  font-family: Arial, Helvetica, sans-serif;
 
   /* Typography */
   font-size: 18px;
   line-height: 150%;
-  color: #333;
+  color: #808080;
 
   /* Visual */
-  background: #efeee7;
+  background: #808080;
 }
 
 header {
-  background: #d21034;
-}
-
-h1 {
-  /* Box-model */
-  padding: 20px 0;
-
-  /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-
-  /* Typography */
-  color: #eee;
+  background:#f2f2f2;
+  border-bottom: 6px solid grey;
+  font-size: 12px;
   text-align: center;
-
-  /* Visual */
-  background: #333;
+  padding-bottom: 15px;
 }
 
-h2 {
-  font-size: 24px;
+nav {
+  background:#f2f2f2;
+  border-bottom: 12px solid grey;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
-a {
-  color: #d21034;
+section {
+  background:#f2f2f2;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+  padding-top: 15px;
+}
+
+aside {
+  background:#f2f2f2;
+  font-size: 12px;
+  text-align: center;
+}
+
+article {
+  background:#808080;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-style: solid;
+  border-color: #f2f2f2;
+  border-width: 10px;
+  padding-top: 20px;
+}
+
+footer {
+  background:#f2f2f2;
+  border-top: 12px solid grey;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .container {
-  /* Box-model */
-  width: 1024px;
-
-  /* Positioning */
+  width: 1200px;
+  background: grey;
   margin: 0 auto;
 }
 
-#main-bio,
-#contact-info,
-#bio-image {
+#Header {
+  width: 100%;
+}
+
+#Nav {
+  width: 100%;
+}
+
+#Section {
+  width: 594px;
+  height: 300px;
   float: left;
 }
 
-#main-bio {
-  width: 70%;
+#Aside {
+  width: 594px;
+  height: 300px;
+  float: right;
 }
 
-#contact-info {
-  width: 30%;
+#Article {
+  width: 594px;
 }
 
-#bio-image {
-  /* Box-model */
-  width: 200px;
-  height: 200px;
-
-  /* Positioning */
-
-  margin-right: 20px;
+#Footer {
+  width: 100%;
 }
+
